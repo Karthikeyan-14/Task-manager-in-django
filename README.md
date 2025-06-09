@@ -15,7 +15,8 @@ A simple and efficient Task Manager web application built using Django. This app
 - Python 3.x
 - Django 4.x
 - HTML/CSS (for the frontend)
-- SQLite3 (default Django database)
+- Jquery for ajax
+- Mysql
 
 ## 📦 Setup Instructions
 
