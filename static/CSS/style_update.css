@@ -1,0 +1,26 @@
+.test{
+    padding-top:90px;
+    text-align: left;
+    display: table;
+    border-style: black,solid,2px;
+}
+p{
+  display:table-row;
+  padding: 5px;
+}
+label,input{
+  display:table-cell;
+}
+body{
+background-image: url('https://th.bing.com/th/id/R.14ab0af50a9f9f3bd334dbc2dc8e4139?rik=PO7fuNYx6l8JLA&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fWonderful-Nature-Colorful-Scene-HD.jpg&ehk=0HrJNBc%2bzz5o2AEdayde46yRrDdvVexZ3cYpe67%2bL%2fo%3d&risl=&pid=ImgRaw&r=0');
+color:white;
+font-weight: 200;
+font-style: oblique;
+font-size: medium;
+background-repeat: no-repeat;
+background-size: cover;
+}
+a{
+text-decoration: none;
+color:aliceblue
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{% static 'CSS/style_reg.css' %}"
+</head>
+<body>
+<center>
+    <div class="box">
+        <div class="head">
+            <h1>REGISTER</h1>    
+        </div>
+        <hr></hr>
+        <div class="content">
+             <!-- post method is used to  get the data from the form-->
+            <form method="POST"action="regsave">
+                 <!-- csrf token is compulsory for form-->
+                {% csrf_token %}
+                <input name="regmail" class="ip" placeholder="Email id" type="email" autocomplete="off"></input><br>
+                <input name="regpass" class="ip" placeholder="password" type="password" autocomplete="off"></input><br>
+                <button class="bt">Register</button>
+            </form>
+        </div>
+        <!-- url is used to redirect to next page by url name-->
+    <a href="{% url 'login'%}">have account please login!</a>
+    </div>
+<center>
+
+    <footer class="foot">contact us 7687656543,9878765678</footer>
+</body>
+</html>

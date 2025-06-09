@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update</title>
+    <link rel="stylesheet" href="{% static 'CSS/style_update.css' %}">
+</head>
+<body>
+    <center>
+    <h1>UPDATE THE TASK : {{task.task_data}}</h1>
+    <!-- post method is used to  get the data from the form-->
+    <form method="POST" class="test">
+         <!-- csrf token is compulsory for form-->
+        {%csrf_token%}
+        <p>
+            <!--display the task data in the text field by give the table data in the value-->
+    <label>Task:</label>
+    <input name='task_name' value="{{task.task_data}}" type="text"></input>
+        </p>
+        <p>
+    <label>DESCRIPTION:</label>
+    <textarea name='task_desc' type="text">{{task.description_data}}</textarea>
+        </p>
+        <p>
+    <label>DATE:</label>
+    <input name='task_date' value="{{task.date_data|date:'Y-m-d'}}"type="date"></input>
+        </p>
+    <button>UPDATE</button>
+    </form>
+    <!-- url is used to redirect to next page by url name-->
+    <a href="{% url 'dashboard' %}">cancel and return to dashboard</a>
+<center>
+</body>
+</html>

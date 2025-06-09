@@ -1,0 +1,37 @@
+.box{
+    margin-top: 10%;
+    margin-left :40%;
+    margin-right:40%;
+    padding-bottom:40px;
+    border-width:2px;
+    border-style: solid;
+    border-color:black,5px ;
+    border-radius:10px;
+}
+.ip{
+    margin-top:5px;
+    margin-bottom:5px;
+    padding:5px;
+}
+.bt{
+    padding:8px;
+    margin-top:5px;
+}
+.foot{
+    margin-top:25px;
+    background-color: black;
+    color:white;
+}
+body{
+background-image: url('https://wallpapertag.com/wallpaper/full/d/3/c/968676-hi-res-background-images-2651x1813-retina.jpg');
+color:white;
+font-weight: 200;
+font-style: oblique;
+font-size: medium;
+background-repeat: no-repeat;
+background-size: cover;
+}
+a{
+text-decoration: none;
+color:aliceblue
+}

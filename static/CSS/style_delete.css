@@ -1,0 +1,26 @@
+.test{
+    padding-top:90px;
+    text-align: left;
+    display: table;
+    border-style: black,solid,2px;
+}
+p{
+  display:table-row;
+  padding: 5px;
+}
+label,input{
+  display:table-cell;
+}
+body{
+background-image: url('https://th.bing.com/th/id/R.63be24348856919856f4184631a12f55?rik=qh3r9%2fTo2jgAow&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f9quGkLG.jpg&ehk=0Xx4Qv2EDKAKYFWXlL4agJowBrvKUasWzeH%2fBkx2PUE%3d&risl=&pid=ImgRaw&r=0');
+
+font-weight: 200;
+font-style: oblique;
+font-size: medium;
+background-repeat: no-repeat;
+background-size: cover;
+}
+a{
+text-decoration: none;
+color:aliceblue
+}
